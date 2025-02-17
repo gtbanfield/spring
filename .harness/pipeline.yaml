@@ -50,7 +50,7 @@ pipeline:
                   identifier: docker
                   template:
                     templateRef: Docker
-                    versionLabel: v0.1.0
+                    versionLabel: v0.1.1
                     gitBranch: main       
     - stage:
         name: Approval
