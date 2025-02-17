@@ -1,0 +1,15 @@
+inputSet:
+  name: spring
+  tags: {}
+  identifier: spring
+  orgIdentifier: default
+  projectIdentifier: IDA
+  pipeline:
+    identifier: spring
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
